@@ -1,7 +1,7 @@
  # 语言:
-[English](https://github.com/howeguo/Token-multisender/blob/master/FAQ.md)  | [中文](https://github.com/howeguo/Token-multisender/blob/master/FAQ_%E4%B8%AD%E6%96%87.md)
+[English](https://github.com/howeguo/Token-BulkSender/blob/master/FAQ.md)  | [中文](https://github.com/howeguo/Token-BulkSender/blob/master/FAQ_%E4%B8%AD%E6%96%87.md)
 
-# Token MultiSender 问题列表
+# Token BulkSender 问题列表
 
 首先非常感激您对我们的产品兴趣，这里我们列了一些常见问题，希望对你们有帮助:
 
@@ -37,7 +37,7 @@ Proof of work:
 您必须确保您已经安装好MetaMask(https://metamask.io) ,然后确保在MetaMask中解锁了正确的账户。
 
 ## 单笔交易的地址数量限制是多少?
-默认是200, 最大是245，这个也取决于以太坊每个块的gas limit上限，如果每次发送的地址数量过大, 交易可能会失败， 200是我们经过测试，成功率比较高的一个数量, 如有失败，可尝试将该数值调小。
+默认是175, 最大是200，这个也取决于以太坊每个块的gas limit上限，如果每次发送的地址数量过大, 交易可能会失败， 175是我们经过测试，成功率比较高、速度比较快的一个数量, 如有失败，可尝试将该数值调小。
 
 ## 单笔交易的手续费是多少?
 默认手续费是0.01ETH, 但是，我们有VIP会员模式, 您只需要支付1个ETH，从我们DAPP中发起的所有交易将永久免手续。

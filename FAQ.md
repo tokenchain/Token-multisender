@@ -1,14 +1,14 @@
 # Language:
-[English](https://github.com/howeguo/Token-multisender/blob/master/FAQ.md)  | [中文](https://github.com/howeguo/Token-multisender/blob/master/FAQ_%E4%B8%AD%E6%96%87.md)
+[English](https://github.com/howeguo/Token-BulkSender/blob/master/FAQ.md)  | [中文](https://github.com/howeguo/Token-BulkSender/blob/master/FAQ_%E4%B8%AD%E6%96%87.md)
 
-# Token MultiSender FAQ
+# Token BulkSender FAQ
 
 Here, I am very grateful to you for your interest in our DAPP. Here are some common questions that I hope will help you:
 
 # FAQ's
 
 ## Why do I need to do the approval option?
-Because it's a safe way, you don't need to transfer tokens to our smart contract directly, and the approval option just grant permission for smart contract to spend up some amount, it's only avalible when you actually send a token transfer by our contract, so you don't worry about it, just do it.
+Because it's a safe way, you don't need to transfer tokens to our smart contract directly, and the approval option just grant permission for smart contract to spend up some amount, it's only available when you actually send a token transfer by our contract, so you don't worry about it, just do it.
 [About ERC20 Token Standard#Approve](https://theethereum.wiki/w/index.php/ERC20_Token_Standard#Approve_And_TransferFrom_Token_Balance)
 
 ## Do I need to do the approval option every time?
@@ -37,7 +37,7 @@ if ((_value != 0) && (allowed[msg.sender][_spender] != 0)) throw
 You must make sure you have install MetaMask(https://metamask.io) and unlock the right account.
 
 ## What's the max address number of one transaction?
-The default number is 200, the max number is 245. This depends on the gas limit of Ethereum. If it is too large, the transaction may fail. 200 is the number we have tested with a high success rate. If you still often fail, try to reduce this number.
+The default number is 175, the max number is 200. This depends on the gas limit of Ethereum. If it is too large, the transaction may fail. 175 is the number we have tested with a high success rate. If you still often fail, try to reduce this number.
 
 ## What's the tx fee of one transaction?
 The default tx fee is 0.01ETH, But we have VIP membership, you just need to pay 1 ETH to be a VIP, the tx fee will be zero forever for your account.
